@@ -13,20 +13,21 @@
 
     div {
         width: 25%;
-        margin: 0 auto;
-       background-color:black;
+        min-width: 360px;
+        margin: auto;
+        background-color:black;
         color: cadetblue;
         padding: 10px;
     }
 
     .cabec {
         text-align: center;
-       
     }
 
     .title {
         margin-bottom: 20px ;
         margin-left: 8px;
+        margin-right: 8px;
     }
     
     .lastParagraph {
@@ -38,35 +39,15 @@
         height: 150px;
         width: 150px;
         border-radius: 50%;
-       
     }
-    
-  
 
-   li {
-    list-style-type: none;
-    margin-bottom: 10px;
-   }
-   a {
-    text-decoration-line: none;
-    color: cadetblue;
-   }
-
-   a:hover {
-	color: white;
-	}
-
-    .icones {
+    .links li {
         text-align: center;
-        margin-top: 40px;
-        line-height: 0;
+        display: inline;
+        text-decoration: none;
+        padding: 10px;
     }
 
-    .textos {
-        text-align: center;
-        margin-bottom: 40px;
-    }
-    
     </style>
 </head>
 <body>
@@ -79,48 +60,23 @@
     </div>
 
     <div class="corpo">
-     <p class="title">Meu nome é <strong> Gustavo Pessoa</strong> e sou desenvolvedor de software. </p>
-     <p class="title">Iniciei a minha carreira há muitos anos, tendo programado em <em>COBOL</em>, <em>Clipper</em> e <em>ABAP</em>, entre outras linguagens. </p>
-     <p class="lastParagraph">Atualmente trabalho com <em>HTML</em>, <em>CSS</em> e  <em>Javascript</em>.
-     </p>
+        <p class="title">Meu nome é <strong> Gustavo Pessoa</strong> e sou desenvolvedor de software. </p>
+        <p class="title">Iniciei a minha carreira há muitos anos, tendo programado em <em>COBOL</em>, <em>Clipper</em> e <em>ABAP</em>, entre outras linguagens. </p>
+        <p class="lastParagraph">Atualmente trabalho com <em>HTML</em>, <em>CSS</em> e  <em>Javascript</em>.
+        </p>
 
-     <h2 class="cabec">Meus Perfis</h2>
-
+        <div>
      
-        <p class="icones"><a  href="https://github.com/gustavo-pessoa" link="external"><img src="image/github.png" alt="GitHub" ></a></p>
-        <p class="textos"><a href="https://github.com/gustavo-pessoa" link="external">GitHub: gustavo-pessoa</a></p>
-
-        <p class="icones"><a href="https://www.linkedin.com/in/gustavopessoa/" link="external"><img src="image/linkedin.png" alt="LinkedIn" ></a></p>
-        <p class="textos"><a href="https://www.linkedin.com/in/gustavopessoa/" link="external">LinkedIn: /in/gustavopessoa</a></p>
-
-        <p class="icones"><a href="https://www.instagram.com/gustavo.c.a.pessoa/"><img src="image/instagram.png" alt="Instagram" ></a></p>
-        <p class="textos"><a href="https://www.instagram.com/gustavo.c.a.pessoa/">Instagram: gpessoa</a></p>
-
-        <p class="icones"><a href="https://www.facebook.com/gcapessoa"><img src="image/facebook.png" alt="Facebook" ></a></p>
-        <p class="textos"><a href="https://www.facebook.com/gcapessoa">Facebook: gcapessoa</a></p>
-
-        <p class="icones"><a href="https://twitter.com/gpessoa"><img src="image/twitter.png" alt="Twitter" ></a></p>
-        <p class="textos"><a href="https://twitter.com/gpessoa">Twitter: gpessoa</a></p>
-    
-
-    <!--
-
-
-
-     <ul>
-        <li><a href="https://github.com/gustavo-pessoa" link="external"><img src="image/github.png" alt="GitHub" >GitHub - gustavo-pessoa</a></li>
-
-        <li><a href="https://www.linkedin.com/in/gustavopessoa/" link="external"><img src="image/linkedin.png" alt="LinkedIn" >LinkedIn - /in/gustavopessoa</a></li>
-
-        <li><a href="https://www.instagram.com/gustavo.c.a.pessoa/"><img src="image/instagram.png" alt="Instagram" >Instagram - gpessoa</a>     </li>
-
-        <li><a href="https://www.facebook.com/gcapessoa"><img src="image/facebook.png" alt="Facebook" >Facebook - gcapessoa</a></li>
-
-        <li><a href="https://twitter.com/gpessoa"><img src="image/twitter.png" alt="Twitter" >Twitter - gpessoa</a></li>
-    </ul>
-
- -->
-
+         <h2 class="cabec">Meus Perfis</h2>
+        
+          <ul class="links">
+            <li><a href="https://github.com/gustavo-pessoa" link="external"><img src="image/github.png" alt="GitHub" ></a></li>
+            <li><a href="https://www.linkedin.com/in/gustavopessoa/" link="external"><img src="image/linkedin.png" alt="LinkedIn" ></a></li>
+            <li><a href="https://www.instagram.com/gustavo.c.a.pessoa/"><img src="image/instagram.png" alt="Instagram" ></a></li>
+            <li><a href="https://www.facebook.com/gcapessoa"><img src="image/facebook.png" alt="Facebook" ></a></li>
+            <li><a href="https://twitter.com/gpessoa"><img src="image/twitter.png" alt="Twitter" ></a></li>
+        </ul>
+    </div>
 
     </div>  
     
